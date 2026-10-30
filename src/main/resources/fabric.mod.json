@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tomefusion",
+  "version": "${version}",
+  "name": "Tome Fusion",
+  "description": "Combine enchanted books in the anvil by adding their levels - capped at twice the vanilla maximum.",
+  "authors": [ "TODO: dein Name" ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/tome-fusion",
+    "sources": "https://github.com/TODO-DEIN-NAME/tome-fusion",
+    "issues": "https://github.com/TODO-DEIN-NAME/tome-fusion/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.example.tomefusion.TomeFusion" ]
+  },
+  "mixins": [ "tomefusion.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
